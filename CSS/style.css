@@ -1,8 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Caveat', cursive;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1,h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+a:focus, button:focus {
+    outline: none;
+    border-bottom:2px solid #B84A62;
+}
+
+
 .logo-img{
     height:25px;
     width: 25px;
     margin-right: 7px;
 }
+
 span{
     color: #B84A62;
     font-weight: bolder;
@@ -39,18 +58,6 @@ h1{
 
 p {
     text-indent:15px;
-}
-
- body{
-    font-family: 'Caveat', cursive;
-    font-family: 'DM Serif Display', serif;
-    font-family: 'Josefin Sans', sans-serif;
-}
-h1,h2 {
-    font-family: 'Caveat', cursive;
-    font-family: 'DM Serif Display', serif;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Libre Bodoni', serif;
 }
 
 .prg-img{
