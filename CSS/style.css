@@ -52,9 +52,6 @@ h1{
     font-size:70px;
 }
 
-/*
-  color:#B84A62
-  color:#8f99fb*/
 
 p {
     text-indent:15px;
@@ -98,6 +95,7 @@ p {
     padding: 15px;
     font-size: 18px;
     transition: width 0.3s ease;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 .search{
@@ -157,7 +155,7 @@ button.button {
     }
 }
 
-@media(max-width:990px){
+@media(max-width:1020px){
     .search{
         display:none;
     }
