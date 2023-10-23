@@ -155,7 +155,7 @@ button.button {
     }
 }
 
-@media(max-width:1020px){
+@media(max-width:1030px){
     .search{
         display:none;
     }
