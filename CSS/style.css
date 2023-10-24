@@ -52,7 +52,6 @@ h1{
     font-size:70px;
 }
 
-
 p {
     text-indent:15px;
 }
@@ -81,7 +80,7 @@ p {
     outline: #B84A62;
 }
 
-/* For search  */
+                                            /* For search  */
 
 .input{
     margin:7px;
@@ -129,8 +128,46 @@ button.button {
 .search.activeBtn .button{
     transform: translateX(198px);
 }
+                                            /* For search  */
 
+                                            /* For heading animation */
+.animated-in{
+    animation: moveIn 0.5s ease-in 1s;
+}
 
+.animated-out{
+    animation:moveOut 0.5s ease-in 1s;
+}
+
+@keyframes moveIn{
+    0%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+    80%{
+        transform:translateX(30px);
+    }
+    100%{
+        opacity: 1;
+        transform:translateX(0);
+    }
+}
+
+@keyframes moveOut{
+    0%{
+        opacity:0;
+        transform:translateX(100px);
+    }
+    80%{
+        transform:translateX(-30px);
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0)
+    }
+}
+
+                                            /* For heading animation */
 
 @media (max-width:576px){
     h1{
